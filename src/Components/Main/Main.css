@@ -1,0 +1,170 @@
+.main{
+  width: 100%;
+  padding: 30px;
+  background-color: #F7F8FC;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 58px;
+}
+
+.icons{
+  padding-right: 30px;
+  border-right: 1px solid #DFE0EB;
+}
+
+.search{
+  margin-right: 25px;
+}
+
+.header-right{
+  display: flex;
+  align-items: center;
+}
+
+.avatar{
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+}
+
+.avatar__name{
+  margin-right: 14px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.trends{
+  display: flex;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border: 1px solid #DFE0EB;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.trends-left{
+  width: 780px;
+  padding: 32px;
+}
+
+.trends-left__title{
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #252733;
+}
+
+.trends-left__case{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.today-case{
+  display: flex;
+  align-items: center;
+}
+
+.today-case + .today-case{
+  margin-left: 32px;
+}
+
+.line{
+  display: inline-block;
+  width: 16px;
+  height: 2px;
+  background-color: #3751FF;
+  margin-right: 8px;
+}
+
+.line-primary{
+  background-color: #DFE0EB;
+}
+
+.trends-left__text{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #9FA2B4;
+}
+
+.trends-right__list{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding: 8px 0;
+  border-left: 1px solid #DFE0EB;
+}
+
+.bottom{
+  width: 546px;
+  background: #FFFFFF;
+  border: 1px solid #DFE0EB;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.bottom-case{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tickets-list{
+  margin-top: 36px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.newtask-case{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 32px;
+}
+.newtask-text{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #C5C7CD;
+  margin: 0;
+}
+
+.newtask-btn{
+  width: 24px;
+  height: 24px;
+  background: #F0F1F7;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,43 @@
+.item{
+  width: 258px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 1px solid #DFE0EB;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 24px 32px;
+  transition: all 0.3s ease;
+}
+
+.item:hover{
+  border: 1px solid #3751FF;
+}
+
+.item:hover .item__text{
+  color: #3751FF;
+}
+
+.item:hover .number{
+  color: #3751FF;
+}
+
+.item__text{
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #9FA2B4;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.number{
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #252733;
+}

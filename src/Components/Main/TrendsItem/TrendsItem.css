@@ -1,0 +1,30 @@
+.trends-right__item{
+  width: 278px;
+  padding: 24px 32px;
+  border-bottom: 1px solid #DFE0EB;
+}
+
+.trends-right__item:nth-child(5){
+  border-bottom: none;
+}
+
+.trends-right__text{
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #9FA2B4;
+  margin-bottom: 6px;
+}
+
+.trends-right__number{
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #252733;
+}
