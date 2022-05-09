@@ -1,4 +1,4 @@
-import { Logo, Overview, Tickets, Contacts, Agents, Articles, Settings, Subscription } from "../../Assets/Images/Icons/Icons"
+import { Logo, Overview, Tickets, Ideas ,  Contacts, Agents, Articles, Settings, Subscription } from "../../Assets/Images/Icons/Icons"
 import Item from "./Item/Item";
 import "./Sidebar.css"
 
@@ -6,13 +6,14 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <Logo clasName="logo" />
-      <Item icon={Overview} text="Overview"/>
-      <Item icon={Tickets} text="Tickets"/>
-      <Item icon={Contacts} text="Contacts"/>
-      <Item icon={Agents} text="Agents"/>
-      <Item icon={Articles} text="Articles"/>
-      <Item icon={Settings} text="Settings"/>
-      <Item icon={Subscription} text="Subscription"/>
+      <Item to="/" Icon={Overview} text="Overview" />
+      <Item to="/ticket" Icon={Tickets} text="Tickets" />
+      <Item to="/ideas" Icon={Ideas} text="Ideas" />
+      <Item to="/contact" Icon={Contacts} text="Contacts" />
+      <Item to="/agents" Icon={Agents} text="Agents" />
+      <Item to="/artickles" Icon={Articles} text="Articles" />
+      <Item to="/settings" Icon={Settings} text="Settings" />
+      <Item to="/subscription" Icon={Subscription} text="Subscription" />
     </div>
   )
 }

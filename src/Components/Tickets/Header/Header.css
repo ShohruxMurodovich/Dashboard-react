@@ -1,0 +1,37 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 58px;
+}
+
+.icons{
+  padding-right: 30px;
+  border-right: 1px solid #DFE0EB;
+}
+
+.search{
+  margin-right: 25px;
+}
+
+.header-right{
+  display: flex;
+  align-items: center;
+}
+
+.avatar{
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+}
+
+.avatar__name{
+  margin-right: 14px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #252733;
+}

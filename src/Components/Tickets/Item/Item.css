@@ -1,0 +1,140 @@
+.ticket-item {
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+  border-top: 1.5px solid #DFE0EB;
+}
+
+.ticket-item:nth-child(8){
+  border-bottom: 1.5px solid #DFE0EB;
+}
+
+
+.wrapper{
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.item__img{
+  width: 44px;
+  height: 44px;
+  margin-right: 24px;
+}
+
+.more{
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
+
+.item__detail-text{
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+
+.wrapper-info{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #C5C7CD;
+}
+
+.item__name{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+
+.item__date{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+
+.red{
+  margin: 0;
+  padding: 5px 12px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #F12B2C;
+  border-radius: 100px;
+}
+
+.red{
+  margin-right: auto;
+}
+
+.yellow{
+  padding: 5px 12px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #FEC400;
+  border-radius: 100px;
+}
+
+.yellow{
+  margin-right: auto;
+}
+
+.green{
+  padding: 5px 12px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #29CC97;
+  border-radius: 100px;
+}
+
+.green{
+  margin-right: auto;
+}
+
+.detail-wrapper{
+  width: 410px;
+}
+
+.name-wrapper{
+  width: 280px;
+}
+
+.date-wrapper{
+  margin-right: 95px;
+}

@@ -1,7 +1,7 @@
-import "./Main.css"
+import "./Overview.css"
 import Avatar from "../../Assets/Images/avatar.png"
 import { Search, Notification, Add } from "../../Assets/Images/Icons/Icons";
-import Item from "./Item/Item";
+import Item from "./Item/Item"
 import TrendsItem from "./TrendsItem/TrendsItem";
 import BottomHeader from "./BottomHeader/BottomHeader";
 import TicketsItem from "./TicketsItem/TicketsItem";
@@ -71,9 +71,9 @@ const Main = () => {
             <p className="newtask-text">Create new task</p>
             <button className="newtask-btn">+</button>
           </div>
-          <Checkbox text="Finish ticket update" color="yellow" checkname="finish" description="Urgent"/>
-          <Checkbox text="Create new ticket example" color="green" checkname="finish" description="New"/>
-          <Checkbox  text="Update ticket report" color="default" checkname="finish" description="Default"/>
+          <Checkbox text="Finish ticket update" color="yellow" checkname="finish" description="Urgent" />
+          <Checkbox text="Create new ticket example" color="green" checkname="finish" description="New" />
+          <Checkbox text="Update ticket report" color="default" checkname="finish" description="Default" />
         </div>
       </div>
     </div>

@@ -25,6 +25,10 @@
   text-decoration: none;
 }
 
+.text:hover{
+  text-decoration: underline;
+}
+
 .info{
   font-size: 12px;
   line-height: 16px;

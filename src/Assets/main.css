@@ -7,3 +7,9 @@ body{
 .body-case{
   display: flex;
 }
+
+.header-case{
+  width: 100%;
+  padding: 30px ;
+  background-color: #F7F8FC;
+}

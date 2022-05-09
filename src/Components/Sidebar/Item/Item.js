@@ -1,12 +1,12 @@
 import "./Item.css"
+import { NavLink } from "react-router-dom";
 
-
-const Item = ({text , icon}) =>{
+const Item = ({ text, Icon, to }) => {
   return (
-    <a href="#link" className="case">
-      <icon/>
+    <NavLink to={to} href="#link" className="case">
+      <Icon />
       <h2 className="option">{text}</h2>
-    </a>
+    </NavLink>
   )
 }
 

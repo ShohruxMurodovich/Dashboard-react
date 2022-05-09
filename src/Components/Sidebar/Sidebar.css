@@ -1,6 +1,10 @@
 .sidebar{
   width: 255px;
-  height: 1240px;
+  height: 166vh;
   background-color: #363740;
-  padding: 37px 30px 18px 30px;
+  padding: 37px 0 18px 0;
+}
+
+.logo{
+  padding-left: 30px;
 }
