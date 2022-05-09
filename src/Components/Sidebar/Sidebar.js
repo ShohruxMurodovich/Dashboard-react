@@ -13,7 +13,7 @@ const Sidebar = () => {
       <Item to="/agents" Icon={Agents} text="Agents" />
       <Item to="/artickles" Icon={Articles} text="Articles" />
       <Item to="/settings" Icon={Settings} text="Settings" />
-      <Item to="/subscription" Icon={Subscription} text="Subscription" />
+      <Item to="/subscription" Icon={Subscription} text="Subscription"/>
     </div>
   )
 }
